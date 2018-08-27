@@ -1,0 +1,30 @@
+/* site-nav * color和font,line-height都有继承的作用
+	position：absolute  他的祖先谁有定位就用它的嘛,然后宽高默认是它的祖先的宽高
+
+*/
+#site-nav {font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;background: #f2f2f2;}
+.sn-container{height:32px;color: #999;}
+.sn-login-info{display:inline-block;height:32px;line-height:32px;}
+.sn-login-info a,.sn-login-info span{padding:0 10px}
+.sn-login-info a:visited {color: #999;}
+.sn-login-info a:hover{ color:red }
+.sn-container .sn-quick-menu{position:absolute;top:0px;right:40px}
+.sn-container .sn-quick-menu li{float:left;line-height:32px;height:32px;cursor:pointer}
+.sn-container .sn-quick-menu .sn-menu{position:relative}
+.sn-container .sn-quick-menu .sn-menu:hover{background:#fff}
+.sn-container .sn-quick-menu .sn-menu:hover b{transform:rotate(180deg);transition:transform .2s ease-in;transform-origin:50% 30%}
+.sn-container .sn-quick-menu .menu-hd{display:block;padding-left:10px;padding-right:14px;border: solid #eee;border-width: 0 1px 1px;border-bottom:0px}
+.sn-container .sn-quick-menu .menu-hd b{position:absolute;right:6px;top:15px;border-width:3px;border-style:solid dashed dashed;border-color:#bbb transparent transparent; }
+.sn-container .sn-quick-menu .sn-menu:hover .menu-bd{display:block}
+.sn-container .sn-quick-menu .menu-bd{z-index:10000;position:absolute;left:0px;top:33px;background: #fff;border: solid #eee;border-width: 0 1px 1px;display:none}
+.sn-container .sn-quick-menu .menu-bd-panel a{display:block;line-height:20px}
+.sn-container .sn-quick-menu .menu-bd-panel {padding:8px 10px;width:74px}
+.sn-container .sn-quick-menu .menu-bd-panel a{color: #666;} 
+.sn-container .sn-quick-menu .menu-bd-panel a:hover{text-decoration:underline;color:red;}
+.sn-container .sn-quick-menu li{padding:0 7px 5px}
+.sn-container .sn-quick-menu .mui-global-iconfont{font-family: mui-global-iconfont!important;font-size: 12px;font-style: normal;color:red}
+
+
+/* header */
+#header #mallSearch{width:410px;margin:0 auto; padding-top:38px;height:36px;}
+.mallSearch-wrap{border:2px solid #FF0036}

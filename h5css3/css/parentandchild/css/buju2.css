@@ -1,0 +1,19 @@
+.parent{
+	height: 400px;
+	width: 200px;
+	margin-top: 100px;
+}
+.top{
+	width: 200px;
+	height: 100px;
+	overflow: hidden;(不管是否有定位，这个都会起作用的)
+	border-bottom: 1px solid #000000;
+	position: absolute;
+}
+.bottom{
+	height: 100%;/*(高度的100%，只是设置了div元素的高度，溢出部分还要单独的处理)*/
+	padding-top: 100px;
+	overflow: hidden;
+	box-sizing: content-box;/*（border-box，content-box 分别表示高度是否包含padding和border）*/
+
+}

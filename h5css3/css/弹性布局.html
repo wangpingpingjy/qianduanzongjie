@@ -1,0 +1,15 @@
+<html>
+	<style type="text/css">
+		/*body{direction: rtl;}*/
+		.flex-container{display:flex;width: 200px;height: 100px;background: blue; flex-direction:column-reverse;}
+		.flex-item{width: :100px;height: 50px;margin: 10px;background: red}
+		/* 弹性布局，弹性子元素的宽高只有在父元素够大的时候才会起作用,如果flex-direction的值是column，那么弹性子元素的宽是不起作用的，如果值是row，那么高是不起作用的*/
+	</style>
+	<body>
+		<div class="flex-container">
+			<div class="flex-item">flex item1</div>
+			<div class="flex-item">flex item2</div>
+			<div class="flex-item">flex item3</div>
+		</div>
+	</body>
+</html>
